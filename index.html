@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Tutorial</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <div class="button">
+        <div class="start">
+            <!-- кнопка Старт  -->
+            <button onclick="myMove()">Старт</button>
+        </div>
+        <div class="text">
+            <!-- счет и времени игры  -->
+            <h4 id="out"></h4>
+        </div>
+        <div class="finish">
+            <!-- кнопка Стоп  -->
+            <button onclick="myFinish()">Стоп</button>
+        </div>
+    </div>
+
+    <!-- описание поля игры игры  -->
+    <div id="myContainer">
+        <!-- описание шарика  -->
+        <div id="myBall"></div>
+        <!-- описание ракетки  -->
+        <div id="myRacket"></div>
+    </div>
+
+<script src="script.js"></script>
+</body> 
+</html>
